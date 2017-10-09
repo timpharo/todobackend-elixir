@@ -18,12 +18,12 @@ config :todobackend, TodobackendWeb.Endpoint,
   url: [scheme: "https", host: "elixir-todo-backend.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/cache_manifest.json",
-  secret_key_base: System.gen_env("SECRET_KEY_BASE")
+  secret_key_base: System.get_env("SECRET_KEY_BASE")
 
 config :todobackend, Todobackend.Repo,
   adapter: Ecto.Adapters.Postgres,
-  url: System.gen_env("DATABASE_URL"),
-  pool_size: System.to_integer(System.gen_env("POOL_SIZE") || 10),
+  url: System.get_env("DATABASE_URL"),
+  pool_size: String.to_integer(System.get_env("POOL_SIZE") || 10),
   ssl: true
 
 
