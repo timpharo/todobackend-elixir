@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b6e4cc-2dcd-4c73-8ccb-bbdbf123a456" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elixir_buildpack.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/prod.exs" afterPath="$PROJECT_DIR$/config/prod.exs" />
     </list>
     <ignored path="$PROJECT_DIR$/assets/_build/dev/lib/phoenix/ebin/" />
     <ignored path="$PROJECT_DIR$/assets/_build/test/lib/phoenix/ebin/" />
@@ -53,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod.exs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prod.exs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/prod.exs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elixir_buildpack.config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elixir_buildpack.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -113,16 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mix.exs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mix.exs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -158,6 +158,7 @@
         <option value="$PROJECT_DIR$/lib/todobackend/repo.ex" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/prod.exs" />
+        <option value="$PROJECT_DIR$/elixir_buildpack.config" />
       </list>
     </option>
   </component>
@@ -437,7 +438,7 @@
       <updated>1507491451544</updated>
       <workItem from="1507491454075" duration="1108000" />
       <workItem from="1507556273517" duration="1000" />
-      <workItem from="1507558981241" duration="998000" />
+      <workItem from="1507558981241" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="Correct configuration error">
       <created>1507560843506</created>
@@ -446,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507560843506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Correct configuration error">
+      <created>1507560923529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507560923529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3998000" />
+    <option name="totallyTimeSpent" value="4243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -498,14 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/todobackend_web.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/todobackend_web/endpoint.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -862,6 +862,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elixir_buildpack.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
