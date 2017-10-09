@@ -1,17 +1,9 @@
 defmodule TodobackendWeb.TodoController do
   use TodobackendWeb, :controller
-  import Ecto.Query
-  alias Todo_Item
-  alias Todobackend.Repo
-
-  def get do
-
-  end
-
 
   def index(conn, _params) do
-    todoItems = Todo_Item |> Repo.all
-    json conn, todoItems
+    users = []
+    json conn, users
   end
 
   def post(conn, params) do
